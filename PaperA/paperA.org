@@ -1,9 +1,16 @@
 #+TITLE: A paper written in Org.
+#+LATEX_CLASS: IEEEtran
+#+OPTIONS: toc:t
 * A headline
   :PROPERTIES:
   :ID:       6c4f64c4-4e81-4852-b324-e36572201dcd
   :END:
-Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non orci commodo lobortis.  Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.  Sed diam.  Praesent fermentum tempor tellus.  Nullam tempus.  Mauris ac felis vel velit tristique imperdiet.  Donec at pede.  Etiam vel neque nec dui dignissim bibendum.  Vivamus id enim.  Phasellus neque orci, porta a, aliquet quis, semper a, massa.  Phasellus purus.  Pellentesque tristique imperdiet tortor.  Nam euismod tellus id erat.
+Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non orci commodo lobortis.  Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.  Sed diam.  Praesent fermentum tempor tellus.  Nullam tempus.  Mauris ac felis vel velit tristique imperdiet.  Donec at pede.  Etiam vel neque nec dui dignissim bibendum.  Vivamus id enim.  Phasellus neque orci, porta a, aliquet quis, semper a, massa.  Phasellus purus.  Pellentesque tristique imperdiet tortor.  Nam euismod tellus id erat:
+
+\begin{equation}
+\label{eq:1}
+e = m c^2
+\end{equation}
 
 #+NAME: code_kdeplot
 #+begin_src python :results file :exports results 
@@ -12,7 +19,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import norm
 import seaborn as sns
 
-filename = 'kde.pdf'
+filename = 'kde.png'
 filepath = os.path.join(os.getcwd(), 'Figures', filename)
 figsize = 6, 4
 
@@ -24,16 +31,17 @@ plt.tight_layout()
 plt.savefig(filepath, transparent=True)
 return filepath
 #+end_src
+#+ATTR_LATEX: :width .75\textwidth
 #+NAME: fig_kde
-#+CAPTION[KDE plot]: Kernel Density Estimate.
+#+CAPTION: Kernel Density Estimate.
 #+RESULTS: code_kdeplot
-[[file:/home/frederik/MultiPaper/PaperA/Figures/kde.pdf]]
+[[file:/home/frederik/MultiPaper/PaperA/Figures/kde.png]]
 
 - Nam euismod tellus id erat.
 - Pellentesque dapibus suscipit ligula.
 - Nullam eu ante vel est convallis dignissim.
 
-Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Quam [[ref:fig_kde][ref:fig_kde]].
+Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus. Quam Figure [[fig_kde]].
 * Another headline
 
 Quam [[id:6c4f64c4-4e81-4852-b324-e36572201dcd][A headline]].
