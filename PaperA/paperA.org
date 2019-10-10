@@ -1,6 +1,11 @@
 #+TITLE: A paper written in Org.
+#+AUTHOR: Anynomous space captain.
+#+DATE: \today
+#+EMAIL: spaceCaptain@InterstellarShipping.com
+#+BIBLIOGRAPHY: ./references.bib
 #+LATEX_CLASS: IEEEtran
 #+OPTIONS: toc:t
+#+ABSTRACT: Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.
 * A headline
   :PROPERTIES:
   :ID:       6c4f64c4-4e81-4852-b324-e36572201dcd
@@ -37,11 +42,13 @@ return filepath
 #+RESULTS: code_kdeplot
 [[file:/home/frederik/MultiPaper/PaperA/Figures/kde.png]]
 
-- Nam euismod tellus id erat.
+- Nam /euismod tellus id erat/.
 - Pellentesque dapibus suscipit ligula.
 - Nullam eu ante vel est convallis dignissim.
 
-Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus. Quam Figure [[fig_kde]].
+Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus. Quam Figure [[fig_kde]]. Aut hoc aut [[cite:technicaluniversityofdenmarkdtuCITIESAppendix][See page 1 of::, for example]] illud fieri potest \cite{technicaluniversityofdenmarkdtuCITIESAppendix}.
 * Another headline
 
 Quam [[id:6c4f64c4-4e81-4852-b324-e36572201dcd][A headline]].
+
+* An orga heading - not to be exported                             :noexport:
