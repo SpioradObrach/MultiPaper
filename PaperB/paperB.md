@@ -1,4 +1,22 @@
+---
+title:  'Paper: written in Markdown'
+author:
+- Anynomous space captain
+- Assistant of the former
+date: 01/01/2122 (Heliocentric time)
+keywords: [nothing, nothingness]
+abstract: |
+  This is the abstract. 
 
+  It consists of two paragraphs.
+thanks: To all space captains out there.
+documentclass: IEEEtran
+classoption:
+- twocolumn
+colorlinks: true
+linkcolor: blue
+bibliography: './references.bib'
+...
 # Table of Contents
 
 1.  [A headline](#org2d8a729)
@@ -17,13 +35,13 @@ Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non orci comm
 e = m c^2
 \end{equation}
 
-![img](/home/frederik/MultiPaper/PaperA/Figures/kde.png "Kernel Density Estimate.")
+![Kernel Density Estimate.](/home/frederik/MultiPaper/PaperA/Figures/kde.png){#id img width=75%}
 
 -   Nam *euismod tellus id erat*.
 -   Pellentesque dapibus suscipit ligula.
 -   Nullam eu ante vel est convallis dignissim.
 
-Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus. Quam Figure [2](#org816ce87). Aut hoc aut <sup id="3c1c4a40b41b59e66aa5631826279af9"><a href="#technicaluniversityofdenmarkdtuCITIESAppendix" title="@misc{technicaluniversityofdenmarkdtuCITIESAppendix,
+Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus. Quam Figure (#img). Aut hoc aut <sup id="3c1c4a40b41b59e66aa5631826279af9"><a href="#technicaluniversityofdenmarkdtuCITIESAppendix" title="@misc{technicaluniversityofdenmarkdtuCITIESAppendix,
   author = {{Technical University of Denmark (DTU)} and Aalborg University},
   file = {/home/frederik/Zotero/storage/8968BIPJ/CITIES_ProjectDescription.pdf},
   title = {{{CITIES Appendix B}}}
@@ -36,3 +54,9 @@ Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus. Quam Figure [2
 
 Quam [A headline](#org2d8a729).
 
+# References
+
+  See: https://pandoc.org/MANUAL.html#pandocs-markdown
+  
+::: {#refs}
+:::
