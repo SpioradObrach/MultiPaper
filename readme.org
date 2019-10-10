@@ -98,3 +98,7 @@ class Publisher:
 * Orga                                                             :noexport:
 ** Pandoc 
 https://pandoc.org/org.html
+** Tasks
+*** TODO Augment org-header: Make it standalone
+- Include ~minted~ definitions
+*** TODO Extend documentation
