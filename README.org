@@ -42,10 +42,16 @@ bibliography: './references.bib'
 #+end_example
 
 Here, the LaTeX class is specified, alongside class-specific options, link options and a link to the bibliography file.
+** BibLaTeX                                                        :noexport:
+http://www.bibtex.org/Using/
 * Pandoc
 Pandoc[fn:1] is "a free and open source document converter"[fn:2] and can be used to translate within different publication formats. In the two exemplary publication templates /paperA/ and /paperB/, /org/ and /markdown/ formats are used to publish to the IEEE latex template using the default Pandoc latex template. This latex template which can be found alongside a default Pandoc installation is also available in the ~templates~ directory.
 
-Pandoc translates the provided source files
+Pandoc translates the provided source files ...
+** Pandoc-crossref
+See https://github.com/lierdakil/pandoc-crossref.
+** Pandoc-citeproc
+See https://pandoc.org/MANUAL.html#citations.
 * Appendix
 
 #+NAME: code_main_publisher_main
@@ -134,7 +140,8 @@ https://Pandoc.org/org.html
 *** TODO Augment org-header: Make it standalone
 - Include ~minted~ definitions
 *** TODO Extend documentation
-
+*** TODO Follow this cookbook
+https://opensource.com/article/18/9/pandoc-research-paper
 * Footnotes
 
 [fn:4] https://en.wikipedia.org/wiki/Org_mode 

@@ -1,0 +1,16 @@
+---
+title:  'Paper: written in Markdown'
+author:
+- Anynomous space captain
+- Assistant of the former
+date: 01/01/2122 (Heliocentric time)
+keywords: [nothing, nothingness]
+abstract: Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio. Donec hendrerit tempor tellus. Sed id ligula quis est convallis tempor. Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus. Donec vitae dolor.
+thanks: Thanks to all space captains out there.
+documentclass: IEEEtran
+classoption:
+- twocolumn, final
+colorlinks: true
+linkcolor: blue
+bibliography: './references.bib'
+...
